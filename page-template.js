@@ -1,7 +1,7 @@
-## Top of index.js
 const render = require("./src/page-template.js");
 
-## After you have built the teams and stored them in a global array
+// After you have built the teams and stored them in a global array
+
 function buildTeam() {
     // Create the output directory if the output path doesn't exist
     if (!fs.existsSync(OUTPUT_DIR)) {
